@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -24,6 +24,7 @@
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
+\usepackage{pifont}
 
 \addtolength{\topmargin}{-0.7in}
 \addtolength{\textheight}{1.4in}
@@ -36,7 +37,7 @@
 \email{luixZavaleta@gmail.com}                               % optional, remove / comment the line if not wanted
 
 \extrainfo{Ingeniero de Software}                 % optional, remove / comment the line if not wanted
-\photo[64pt][0.4pt]{luis}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\photo[59pt][0.4pt]{luis}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 %\makeatletter
@@ -62,7 +63,7 @@
 
 \cvdoubleitem{\textbf{Sexo}}{Masculino}		{\textbf{Estado civil}}{Soltero}
 \cvdoubleitem{\textbf{Nacimiento}}{30 Enero de 1983}		{\textbf{Nacionalidad}}{Mexicana}
-\cvdoubleitem{\textbf{Ciudad Actual}}{Coatzacoalcos, Veracruz}		{\textbf{Dispuesto a reubicarse}}{Sí}
+\cvdoubleitem{\textbf{Ciudad:}}{Coatzacoalcos, Veracruz}		{\textbf{Dispuesto a reubicarse}}{Sí}
 
 
 \section{Educación}
@@ -71,42 +72,38 @@
 \cvitem{Campus}{Ciudad de México}
 \cvitem{Promedio}{9.2}
 \cvitem{Tesis}{Plataforma cliente-servidor para desarrollo rápido de aplicaciones de realidad aumentada}
+
+\cvitem{Logros}{ \ding{225} Desarrollar de módulo móvil (Android) que permite agregar información adicional (texto y objetos 3D) sobre videos obtenidos por medio del la camara del dispositivo en tiempo real.\newline  
+\ding{225} Implementar un sistema de caching basado en geo-posicionamiento. \newline 
+\ding{225} Desarrollar modulo web (servidor) que permite la administración de los datos y los objetos que van a ser desplegados en el módulo móvil, así como la administración de usuarios. \newline \ding{225} Desarrollar módulo web que permite el análisis de los datos obtenidos por el cliente móvil, así como la generación de reportes y estadísticas.
+\newline \ding{225} Web service para comunicación  entre el cliente y el servidor por medio de interfaces REST.
+}
+
+
+
+% Creación de una plataforma cliente-servidor que permite el desarrollo rápido de aplicaciones de realidad aumentada a la medida.
+
+\cvitem{Tecnologías usadas}{Java, Groovy, Grails, Hibernate, Spring,  REST web services, Android,  AspectJ, OpenGL, ARToolkit, SQL,  SQLite, PostgreSQL,  UML, HTML, CSS, Javascript, Eclipse.}
+
  \vspace{3mm}
 \cvitem{2002-2007}{\textbf{Ingeniería en tecnologías de la información}}
 \cvitem{Escuela}{Universidad Anáhuac}
 \cvitem{Campus}{Xalapa}
 \cvitem{Promedio}{8.3}
 \cvitem{Tesis}{Sistema para administración de asistencias de alumnos y maestros.}
-\cvitem{Tecnologías usadas}{Java, J2EE,  JSP, SQL, Javascript, Tomcat, Netbeans, PostgreSQL, CSS, HTML}
+\cvitem{Tecnologías}{Java, J2EE,  JSP, SQL, Javascript, Tomcat, Netbeans, PostgreSQL, CSS, HTML}
 
 
 
-
-
-
-\section{Tesis de maestría}
-\cvitem{título}{\textbf{Plataforma cliente-servidor para desarrollo rápido de aplicaciones de realidad aumentada}}
-\cvitem{Director}{Dr. Benjamín Hernández Arreguín}
-\cvitem{Descripción}{Generación de
-metodología y plataforma que permite facilitar la realización rápida de
-aplicaciones de realidad aumentada sin sacrificar la flexibilidad al momento de
-implementar características personalizadas. Basado en tres pilares: La división de la aplicación en componentes independientes, el uso de estándares de facto y la utilización de metodologías de desarrollo ágil.}
-\cvitem{Tecnologías usadas}{Java, Groovy, Grails, Hibernate, Spring,  REST web services, Android,  AspectJ, OpenGL, ARToolkit, SQL,  SQLite, PostgreSQL,  UML, HTML, CSS, Javascript.}
-
-\newpage
 \section{Experiencia}
 
-
 \cvitem{2013-Actual}{\textbf{Desarrollador Sr.}}
-\cvitem{Empresa}{\textbf{Vulcano Software}}
-\cvitem{Actividades}{Stuffs}
-\cvitem{Proyectos Principales}{
-\begin{itemize}
-\item Sistema de facturación electrónica VulcanoFactura 
-\item Sistema de administración de contenidos de Páginas Web WYSIWYG.
-\item Sistema de Inventarios y ventas fijas y móviles.
-\end{itemize}
-}
+\cvitem{Empresa}{Vulcano Software}
+\cvitem{Proyectos Principales y Logros}{\ding{225} \textbf{Sistema de facturación electrónica VulcanoFactura:} Desarrollador principal, encargado del back end  y front end del sistema de facturación,  implementación de web service para timbrado , generación de XML de acuerdo al Anexo 20 del SAT, generación de PDF,  creación de interfaz de usuario amigable WYSIWYG,  idéntica al PDF de la factura, Implantación de sistema de administración de facturas, usuarios, proveedores,  etc. \newline
+\ding{225} \textbf{Sistema de administración de contenidos para páginas Web (CMS):} Desarrollador principal,   Se creó un  API que permite agregar a cualquier página web  (basada en estándares: HTML, CSS, Javascript) un  CMS, usando como interfaz de administración la misma página web y así poder ver como se verían los contenidos al momento de editarlos. Creación de modulo que permite guardar los cambios hechos a la página en una base de datos.}
+\cvitem{Tecnologías usadas}{Java, Groovy, Javascript, SQL, Hibernate, Spring, Grails,  REST web services, SOAP web Service (WSLite) , Log4J,  HTML, CSS, AJAX, JQuery, Twitter Bootstrap,   PostgreSQL,  UML, GitHub, Eclipse.} 
+
+
 
 \cvitem{2012}{\textbf{Desarrollador Sr.}}
 \cvitem{Empresa}{\textbf{Enable}}
@@ -117,6 +114,9 @@ implementar características personalizadas. Basado en tres pilares: La divisió
 \end{itemize}
 }
 
+ %
+ %Sistema de administración de contenidos de Páginas Web WYSIWYG.
+ %Sistema de Inventarios y ventas fijas y móviles.
 
 \cvitem{2010-2011}{\textbf{Desarrollador Sr.}}
 \cvitem{Empresa}{\textbf{Foreach}}
@@ -125,7 +125,6 @@ implementar características personalizadas. Basado en tres pilares: La divisió
 \begin{itemize}
 \item Campaña Internacional Coca Cola Happiness
 \item Automatización sistemas de AFORES.
-\item Campaña Contempo SMS.
 \end{itemize}
 }
  \vspace{3mm}
@@ -222,17 +221,7 @@ implementar características personalizadas. Basado en tres pilares: La divisió
 \cvitem{Principales actividades desarrolladas}{Nanana}
  \vspace{3mm}
 
-\cvitem{Nombre}{\textbf{Calendario de eventos BlackBerry}}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
- \vspace{3mm}
 
-
-\cvitem{Nombre}{\textbf{Registro de Asistencia a Eventos Motorola:}}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
 
 
 
