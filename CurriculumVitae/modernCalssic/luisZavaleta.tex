@@ -19,15 +19,42 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.80]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
 \usepackage{pifont}
 
-\addtolength{\topmargin}{-0.7in}
-\addtolength{\textheight}{1.4in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.2in}
+
+% Implementing cvtripleitem
+
+
+
+\newlength\Tripleitemmaincolumnwidth
+\newlength\tripleitemmaincolumnwidth
+
+\AtBeginDocument{%
+\setlength\tripleitemmaincolumnwidth{% 
+  \maincolumnwidth-2\hintscolumnwidth-2\separatorcolumnwidth}%
+\setlength\tripleitemmaincolumnwidth{.333333\tripleitemmaincolumnwidth}%   
+  }
+
+\newcommand*{\cvtripleitem}[7][.25em]{%
+ \cvitem[#1]{#2}{%
+   \begin{minipage}[t]{\tripleitemmaincolumnwidth}#3\end{minipage}%
+   \hfill
+   \begin{minipage}[t]{\hintscolumnwidth}\raggedleft\hintstyle{#4}\end{minipage}%
+   \hspace*{\separatorcolumnwidth}%
+   \begin{minipage}[t]{\tripleitemmaincolumnwidth}#5\end{minipage}%
+   \hfill
+   \begin{minipage}[t]{\hintscolumnwidth}\raggedleft\hintstyle{#6}\end{minipage}%
+   \hspace*{\separatorcolumnwidth}%
+   \begin{minipage}[t]{\tripleitemmaincolumnwidth}#7\end{minipage}%
+   }%
+}
 
 
 \name{Luis}{Zavaleta}
@@ -73,7 +100,7 @@
 \cvitem{Promedio}{9.2}
 \cvitem{Tesis}{Plataforma cliente-servidor para desarrollo rápido de aplicaciones de realidad aumentada}
 
-\cvitem{Logros}{ \ding{225} Desarrollar de módulo móvil (Android) que permite agregar información adicional (texto y objetos 3D) sobre videos obtenidos por medio del la camara del dispositivo en tiempo real.\newline  
+\cvitem{Logros}{ \ding{225} Desarrollar de módulo móvil (Android) que permite agregar información adicional (texto y objetos 3D) sobre videos obtenidos por medio del la cámara del dispositivo en tiempo real.\newline  
 \ding{225} Implementar un sistema de caching basado en geo-posicionamiento. \newline 
 \ding{225} Desarrollar modulo web (servidor) que permite la administración de los datos y los objetos que van a ser desplegados en el módulo móvil, así como la administración de usuarios. \newline \ding{225} Desarrollar módulo web que permite el análisis de los datos obtenidos por el cliente móvil, así como la generación de reportes y estadísticas.
 \newline \ding{225} Web service para comunicación  entre el cliente y el servidor por medio de interfaces REST.
@@ -99,139 +126,133 @@
 
 \cvitem{2013-Actual}{\textbf{Desarrollador Sr.}}
 \cvitem{Empresa}{Vulcano Software}
-\cvitem{Proyectos Principales y Logros}{\ding{225} \textbf{Sistema de facturación electrónica VulcanoFactura:} Desarrollador principal, encargado del back end  y front end del sistema de facturación,  implementación de web service para timbrado , generación de XML de acuerdo al Anexo 20 del SAT, generación de PDF,  creación de interfaz de usuario amigable WYSIWYG,  idéntica al PDF de la factura, Implantación de sistema de administración de facturas, usuarios, proveedores,  etc. \newline
-\ding{225} \textbf{Sistema de administración de contenidos para páginas Web (CMS):} Desarrollador principal,   Se creó un  API que permite agregar a cualquier página web  (basada en estándares: HTML, CSS, Javascript) un  CMS, usando como interfaz de administración la misma página web y así poder ver como se verían los contenidos al momento de editarlos. Creación de modulo que permite guardar los cambios hechos a la página en una base de datos.}
-\cvitem{Tecnologías usadas}{Java, Groovy, Javascript, SQL, Hibernate, Spring, Grails,  REST web services, SOAP web Service (WSLite) , Log4J,  HTML, CSS, AJAX, JQuery, Twitter Bootstrap,   PostgreSQL,  UML, GitHub, Eclipse.} 
+\cvitem{Proyecto}{\textbf{Sistema de facturación electrónica VulcanoFactura. Desarrollador principal} }
+\cvitem{Actividades realizadas}{Encargado del back end  y front end del sistema de facturación,  implementación de web service para timbrado , generación de XML de acuerdo al Anexo 20 del SAT, generación de PDF,  creación de interfaz de usuario amigable WYSIWYG,  idéntica al PDF de la factura, Implantación de sistema de administración de facturas, usuarios, proveedores,  etc. }
+\cvitem{Proyecto}{\textbf{Sistema de administración de contenidos para páginas Web (CMS). Desarrollador principal.}}
+\cvitem{Actividades principales}{Creación de API que permite agregar a cualquier página web  (basada en estándares: HTML, CSS, Javascript) un  CMS, usando como interfaz de administración la misma página web y así poder ver como se verían los contenidos al momento de editarlos. Creación de modulo que permite guardar los cambios hechos a la página en una base de datos.}
 
+\cvitem{Tecnologías usadas}{Java, Groovy, Javascript, SQL, Hibernate, Spring, Grails,  REST web services, SOAP web services (WSLite) , Log4J,  HTML, CSS, AJAX, JQuery, Twitter Bootstrap,   PostgreSQL,  UML, GitHub,  Tomcat, Eclipse.} 
 
+\vspace{3mm}
 
 \cvitem{2012}{\textbf{Desarrollador Sr.}}
-\cvitem{Empresa}{\textbf{Enable}}
-\cvitem{Actividades}{Stuffs}
-\cvitem{Proyectos}{
-\begin{itemize}
-\item Vision Engager
-\end{itemize}
-}
+\cvitem{Empresa}{Enable}
+\cvitem{Proyecto}{\textbf{ Vision Engager:} ERP Basado en Balance Score Card que ayuda a la toma de decisiones empresariales estratégicas, basado en  indicadores de rendimiento visuales.  }
+\cvitem{Actividades principales}{Desarrollo de módulo de comparación gráfico de objetivos reales vs objetivos objetivos proyectados. Desarrollo de modulo de creación automatizada y administración de diagramas de Gantt. Ayudar en la programación de diversos módulos  en el back end del ERP.}
+\cvitem{Tecnologías usadas}{Java,  JAVA EE, JSP,   Spring, Hibernate, Javascript, CSS, HTML,  SQL, Jquery, Jboss, Maven,  Subversion, Netbeans }
 
- %
- %Sistema de administración de contenidos de Páginas Web WYSIWYG.
- %Sistema de Inventarios y ventas fijas y móviles.
+
+\vspace{3mm}
+
 
 \cvitem{2010-2011}{\textbf{Desarrollador Sr.}}
 \cvitem{Empresa}{\textbf{Foreach}}
-\cvitem{Actividades}{Stuffs}
-\cvitem{Proyectos}{
-\begin{itemize}
-\item Campaña Internacional Coca Cola Happiness
-\item Automatización sistemas de AFORES.
-\end{itemize}
-}
+\cvitem{Proyecto}{\textbf{Coca cola Happy Slider}  Aplicación de facebook desarrollada para la campaña social internacional Open Happiness de Coca Cola en el 2010.   \textbf{Desarrollador principal del Back-end }}
+
+\cvitem{Actividades principales}{Desarrollo back end de aplicación que permite a los usuarios compartir su nivel de felicidad y compararlo con sus amigos. Envío y recepción de información con el front end por medio de JSON. Sistema de administración multi-lenguaje con soporte para caracteres asiáticos y bálticos.  Desarrollo de herramienta de administración que permite medir el estado de animo de personas alrededor del mundo y permite crear una correlación entre el estado de ánimo y diversos eventos internacionales, generando tablas y gráficas que permitan la toma de decisiones  estratégicas.}
+ \vspace{3mm}
+\cvitem{Proyecto}{\textbf{Proyecta tu patrimonio Pofuturo} Conjunto de herramientas que permiten facilitar el proceso de cotización y contratación de Afores.  \textbf{Desarrollador principal del Back-end. }}
+\cvitem{Actividades principales}{Desarrollo del back end de herramienta online y offline que permite automatizar el proceso de cotización y contratación de afores. Sistema de administración interno que permite facilitar la administración de los documentos generados. Desarrollo de diversos simuladores de inversiones y ahorros. Generación y envío automático de documentos personalizados. Desarrollo de sistema de administración para portal de Proyecta tu patrimonio.}
  \vspace{3mm}
 
-\cvitem{2009}{\textbf{Desarrollador Sr.}}
+
+\cvitem{Tecnologías usadas}{Java, JAVA EE, LDAP,Spring,  iBATIS,  SQL, ORACLE,  Jquery, Websphere,  Subversion, Maven, Netbeans,  AJAX, Jquery, Javascript, CSS, UML}
+
+\vspace{3mm}
+
+\cvitem{2009}{\textbf{Desarrollador Semi Sr.}}
 \cvitem{Empresa}{\textbf{Chrysler}}
-\cvitem{Actividades}{Stuffs}
-\cvitem{Proyectos}{
-\begin{itemize}
-\item Sistema de Quiosco en plantas de Chrysler.
-\end{itemize}
-}
- \vspace{3mm}
+\cvitem{Proyecto}{\textbf{Sistema de administración para kioscos para las plantas de Chysler México}   \textbf{Desarrollador principal del Back-end }}
 
+\cvitem{Actividades principales realizadas}{Desarrollo de módulo de consulta e impresión de información personal para  los empleados de las plantas. Desarrollo de módulo que permita mostrar información general y mostrar avisos. Desarrollo de sistema de administración que manejar la información desplegada en los quioscos.}
+
+\cvitem{Tecnologías usadas}{Java, JAVA EE, LDAP, Struts ,  SQL, DB2, Websphere,  Subversion, UML,  Rational Rose, Jquery, Javascript, CSS}
+
+
+ \vspace{3mm}
 \cvitem{2007-2009}{\textbf{Desarrollador Jr.}}
 \cvitem{Empresa}{\textbf{Cognosite}}
-\cvitem{Actividades}{Stuffs}
-\cvitem{Proyectos}{
-\begin{itemize}
-\item EQuest:
-\item DominaPV: Punto de venta
-\item Calendario de eventos BlackBerry: Sitema de registro de eventos
-\item Registro de Asistencia a Eventos Motorola:  Código de barras.
-\end{itemize}
-}
+\cvitem{Proyecto}{\textbf{eQuest:} Aplicación móvil que permite recoger información en campo, por ejemplo: aplicar encuestas, generar hojas de servicio, generar documentos de  administración de la calidad en sitio, etc.}
+
+\cvitem{Actividades principales realizadas}{Programación de apis, utilizadas en la aplicación, como un single sign on, clases para manejo de XML, pool de conexiones a las bases de datos. Conversión de diversos módulos de C\# a Java. Creación de prototipos web.}
+
+
+\cvitem{Tecnologías usadas}{Java, J2EE, J2ME,  JSP, ASP, PHP, Blackberry (JAVA), Pocket PC (C\#)  JSP, C\#,  Struts ,  SQL, PostgreSQL, Tomcat,  Netbeans, Jquery, Javascript, CSS}
 
 
 
 
-
-
-
-
-
-
-\section{Proyectos}
-\cvitem{Nombre}{\textbf{ Sistema de facturación electrónica VulcanoFactura }}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
- \vspace{3mm}
-
-\cvitem{Nombre}{\textbf{Sistema de administración de contenidos de Páginas Web WYSIWYG.}}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
- \vspace{3mm}
-
-\cvitem{Nombre}{\textbf{Sistema de Inventarios y ventas fijas y móviles.}}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
- \vspace{3mm}
-
-\cvitem{Nombre}{\textbf{Vision Engager}}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
- \vspace{3mm}
-
-\cvitem{Nombre}{\textbf{Campaña Internacional Coca Cola Happiness}}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
- \vspace{3mm}
-
-\cvitem{Nombre}{\textbf{Automatización sistemas de AFORES.}}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
- \vspace{3mm}
-
-\cvitem{Nombre}{\textbf{Campaña Contempo SMS.}}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
- \vspace{3mm}
-
-\cvitem{Nombre}{\textbf{Sistema de Quiosco en plantas de Chrysler}}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
- \vspace{3mm}
-
-\cvitem{Nombre}{\textbf{DominaPV}}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
- \vspace{3mm}
-
-\cvitem{Nombre}{\textbf{EQuest}}
-\cvitem{Descripción }{ bla bla bla}
-\cvitem{Tecnologías usadas}{bla bla bla}
-\cvitem{Principales actividades desarrolladas}{Nanana}
- \vspace{3mm}
-
-
-
-
+    
+\newpage
 
 
 \section{Habilidades}
-\cvdoubleitem{\textbf{Java}}{5 añdddos}		{\textbf{Groovy}}{2 años}
-\cvdoubleitem{\textbf{Java}}{5 años}		{\textbf{Groovy}}{2 años}
-\cvdoubleitem{\textbf{Java}}{5 años}		{\textbf{Groovy}}{2 años}
-\cvdoubleitem{\textbf{Java}}{5 años}		{\textbf{Groovy}}{2 años}
-\cvdoubleitem{\textbf{Java}}{5 años}		{\textbf{Groovy}}{2 años}
+
+\cvtripleitem
+{\textbf{Java}}{5 años}
+{\textbf{UML}}{4 años}
+{\textbf{SQL}}{5 años}
+
+\cvtripleitem
+{\textbf{Java EE}}{3 años}
+{\textbf{Javascript }}{4 años}
+{ \textbf{PostgreSQL}}{4 años}
+
+\cvtripleitem
+{\textbf{Java ME}}{1 año}
+{\textbf{CSS/CSS3 }}{2 años}
+{\textbf{SQLite}}{1 año}
+
+\cvtripleitem
+{\textbf{JSP}}{4 años}
+{\textbf{HTML/HTML5}}{\hspace{3mm} 2 años}
+{\textbf{DB2}}{6 meses}
+
+\cvtripleitem
+{\textbf{Groovy}}{2 años}
+{\textbf{JQuery}}{3 años}
+{\textbf{Oracle}}{6 meses}
+
+\cvtripleitem
+{\textbf{Spring}}{2 años}
+{\textbf{AJAX}}{3 años}
+{\textbf{Tomcat}}{4 años}
+
+\cvtripleitem
+{\textbf{Hibernate}}{2 años}
+{\textbf{Bootstrap}}{2 años}
+{\textbf{JBoss}}{1 año}
+
+
+\cvtripleitem
+{\textbf{IBatis}}{6 meses}
+{\textbf{REST}}{2 años}
+{\textbf{WebSphere}}{1 año}
+
+
+\cvtripleitem
+{\textbf{Grails}}{2 años}
+{\textbf{SOAP}}{2 años}
+{\textbf{OpenGL}}{1 año}
+
+
+\cvtripleitem
+{\textbf{Android}}{1 año}
+{\textbf{Eclipse}}{3 años}
+{\textbf{ARToolkit}}{1 año}
+
+\cvtripleitem
+{\textbf{AspectJ}}{1 año}
+{\textbf{Netbeans}}{3 años}
+{\textbf{Maven}}{1 año}
+
+
+
+
+
+
+
+
 
 
 
