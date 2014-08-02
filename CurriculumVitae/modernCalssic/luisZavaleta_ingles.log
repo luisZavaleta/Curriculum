@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  31 JUL 2014 23:20
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  1 AUG 2014 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**luisZavaleta.tex
-(./luisZavaleta.tex
+**luisZavaleta_ingles.tex
+(./luisZavaleta_ingles.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
@@ -809,8 +809,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 81.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 81.
 
-(./luisZavaleta.aux)
-\openout1 = `luisZavaleta.aux'.
+(./luisZavaleta_ingles.aux)
+\openout1 = `luisZavaleta_ingles.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
@@ -829,9 +829,11 @@ LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 81.
- (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmr.fd
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+)
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count178
 \scratchdimen=\dimen153
@@ -927,9 +929,9 @@ LaTeX Info: Redefining \ref on input line 81.
 LaTeX Info: Redefining \pageref on input line 81.
 LaTeX Info: Redefining \nameref on input line 81.
 
-(./luisZavaleta.out) (./luisZavaleta.out)
+(./luisZavaleta_ingles.out) (./luisZavaleta_ingles.out)
 \@outlinefile=\write3
-\openout3 = `luisZavaleta.out'.
+\openout3 = `luisZavaleta_ingles.out'.
 
 \makecvtitledetailsbox=\box38
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 84.
@@ -985,28 +987,28 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./luisr
-esume.jpg>] [2]
-Overfull \hbox (12.3459pt too wide) in paragraph at lines 211--211
+esume.jpg>] [2] [3]
+Overfull \hbox (12.3459pt too wide) in paragraph at lines 218--218
  [][]\T1/lmss/bx/n/10 HTML/HTML5[]
  []
 
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
- (./luisZavaleta.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
-Package rerunfilecheck Info: File `luisZavaleta.out' has not changed.
-(rerunfilecheck)             Checksum: 124F40875F786559FCFFEE6F3819E471;491.
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
+ (./luisZavaleta_ingles.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
+Package rerunfilecheck Info: File `luisZavaleta_ingles.out' has not changed.
+(rerunfilecheck)             Checksum: 26C7A4354DE652479153C3F12E1EB1A5;508.
  ) 
 Here is how much of TeX's memory you used:
- 14502 strings out of 493488
- 229606 string characters out of 3141326
- 351384 words of memory out of 3000000
+ 14499 strings out of 493488
+ 229657 string characters out of 3141326
+ 352331 words of memory out of 3000000
  17512 multiletter control sequences out of 15000+200000
- 53029 words of font info for 73 fonts, out of 3000000 for 9000
+ 52827 words of font info for 71 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,11n,45p,778b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,45p,785b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2012/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/20
 12/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2012/texmf-d
@@ -1015,10 +1017,10 @@ type1/public/lm/lmssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
 blic/lm/lmsso17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/l
 msso9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/marvosym/marvo
 sym.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on luisZavaleta.pdf (3 pages, 184205 bytes).
+Output written on luisZavaleta_ingles.pdf (4 pages, 179580 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
  16430 words of extra memory for PDF output out of 17280 (max. 10000000)
 
