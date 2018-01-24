@@ -1,27 +1,47 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%% start of file `template.tex'. 
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com). 
 %
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
+% This work may be distributed and/or modified under the 
+% conditions of the LaTeX Project Public License version 1.3c, 
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options
+                                % include font size ('10pt', '11pt'
+                                % and '12pt'), paper size ('a4paper',
+                                % 'letterpaper', 'a5paper',
+                                % 'legalpaper', 'executivepaper' and
+                                % 'landscape') and font family ('sans'
+                                % and 'roman')
 
 % moderncv themes
-\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\moderncvstyle{classic}                             % style options
+                                % are 'casual' (default), 'classic',
+                                % 'oldstyle' and 'banking'
+\moderncvcolor{black}                               % color options
+                                % 'blue' (default), 'orange', 'green',
+                                % 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the
+%default font; use '\sfdefault' for the default sans serif font,
+%'\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to
+%suppress automatic page numbering for CVs longer than one page
 
 % character encoding
-\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage[utf8]{inputenc}                       % if you are not
+                                % using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to
+%use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
 \usepackage[scale=0.80]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\setlength{\hintscolumnwidth}{4cm}                % if you want to
+%change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic'
+%style, if you want to force the width allocated to your name and
+%avoid line breaks. be careful though, the length is normally
+%calculated to avoid any overlap with your personal info; use this at
+%your own typographical risks...
 
 % personal data
 \usepackage{pifont}
@@ -59,11 +79,14 @@
 
 \name{Luis M.}{Zavaleta V.}
 \title{RESUME}                               % optional, remove / comment the line if not wanted
-\address{Guadalajara, Jalisco}{Mexico}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
-\phone[mobile]{(052) 33-16-21-89-04}                    % optional, remove / comment the line if not wanted
+\address{Guadalajara, Jalisco, Mex}% optional, remove / comment the
+                                % line if not wanted; the "postcode
+                                % city" and and "country" arguments
+                                % can be omitted or provided empty
+\phone{(052) 33-16-21-89-04}                    % optional, remove / comment the line if not wanted
 \email{luixZavaleta@gmail.com}                               % optional, remove / comment the line if not wanted
 
-\extrainfo{Software Operation Manager}                 % optional, remove / comment the line if not wanted
+\extrainfo{\textbf{Technical Manager}}                  % optional, remove / comment the line if not wanted
 \photo[59pt][0.4pt]{luisresume}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
@@ -84,55 +107,63 @@
 \makecvtitle
 
 
-\section{Personal Information}
-\cvitem{\textbf{Name}}{Luis Miguel Zavaleta Vázquez}
-\cvdoubleitem{\textbf{Phone}}{(045) 92-11-34-22-98}{\textbf{Email}}{luixZavaleta@gmail.com}
+%\section{Personal Information}
+%\cvitem{\textbf{Name}}{Luis Miguel Zavaleta Vázquez}
+%\cvdoubleitem{\textbf{Phone}}{(045) 92-11-34-22-98}{\textbf{Email}}{luixZavaleta@gmail.com}
 
-\cvdoubleitem{\textbf{Gender}}{Male}		{\textbf{Status}}{Single}
-\cvdoubleitem{\textbf{Date of birth}}{January 30th, 1983}		{\textbf{Nationality}}{Mexican}
-\cvdoubleitem{\textbf{Current City:}}{Guadalajara, Jalisco}		{\textbf{Willing to relocate}}{Yes}
+%\cvdoubleitem{\textbf{Gender}}{Male}		{\textbf{Status}}{Single}
+%\cvdoubleitem{\textbf{Date of birth}}{January 30th, 1983}		{\textbf{Nationality}}{Mexican}
+%\cvdoubleitem{\textbf{Current City:}}{Guadalajara, Jalisco}		{\textbf{Willing to relocate}}{Yes}
 
 %\section{Objetivo}
-%Aportar mis conocimientos en diversas metodologías y lenguajes de programación con el fin ayudar en la generación software de calidad que permita cubrir las necesidades de los clientes.
-
-\section{Education}
-\cvitem{2009-2012}{\textbf{Master in Computer Science}}
-\cvitem{School}{Monterrey Institute of Technology and Higher Education}
-\cvitem{Campus}{Mexico City}
-\cvitem{Grade}{92/100}
-\cvitem{Thesis}{Light client-server  framework for agile development
-  of Augmented reality applications}
-
-
-\cvitem{Main achievements}{\ding{225} Analisys, design and
-  development of the following componenets
-\begin{description}
-  \item \ding{228} Mobile Augmented Reality Component
-  to enhance camera images with 3D Objects and Texts.
-  \item \ding{228} Mobile Location-based caching component.
-  \item \ding{228} Server-side data management and statistical
-    analisys component.
-\end{description}
-}
-
-
-
-
-% Creación de una plataforma cliente-servidor que permite el desarrollo rápido de aplicaciones de realidad aumentada a la medida.
-
-\cvitem{Used Technologies}{Java, Groovy, Grails, Hibernate, Spring,  REST web services, Android,  AspectJ, OpenGL, ARToolkit, SQL,  SQLite, PostgreSQL,  UML, HTML, CSS, Javascript, Eclipse.}
-
- \vspace{3mm}
-\cvitem{2002-2007}{\textbf{Engineering in technology information}}
-\cvitem{School}{Anáhuac University}
-\cvitem{Campus}{Xalapa}
-\cvitem{Grade}{83/100}
-\cvitem{Thesis}{ System that manage the attendance record for teachers and students}
-\cvitem{Used Technologies}{Java, J2EE,  JSP, SQL, Javascript, Tomcat, Netbeans, PostgreSQL, CSS, HTML}
-
+%Aportar mis conocimientos en diversas metodologías y lenguajes de
+%programación con el fin ayudar en la generación software de calidad
+%que permita cubrir las necesidades de los clientes. 
 
 
 \section{Experience}
+
+\cvitem{Jan/2016-Present}{\textbf{Technical Manager}}
+\cvitem{Company}{HCL Tecnologies}
+\cvitem {Accomplishments}{lorem ipsum dolor sit amet.}
+
+
+\vspace{3mm}
+
+\cvitem{Aug/2014-Dec/2015}{\textbf{Technical Lead}}
+\cvitem{Company}{HCL Tecnologies}
+\cvitem {Accomplishments}{lorem ipsum dolor sit amet.}
+
+\vspace{3mm}
+
+\cvitem{Jul/2012-Jul/2014}{\textbf{Founder \& Principal Developer}}
+\cvitem{Company}{Vulcano Software}
+\cvitem {Accomplishments}{lorem ipsum dolor sit amet.}
+
+\vspace{3mm}
+
+\cvitem{Jan/2012-Jun/2012}{\textbf{Sr. Developer}}
+\cvitem{Company}{\textbf{Enable}}
+\cvitem {Accomplishments}{lorem ipsum dolor sit amet.}
+
+\vspace{3mm}
+
+\cvitem{Nov/2009-Dec/2011}{\textbf{ Sr Developer.}}
+\cvitem{Company}{\textbf{KTC Agency}}
+\cvitem {Accomplishments}{lorem ipsum dolor sit amet.}
+
+\vspace{3mm}
+
+
+\cvitem{Jul/2007-Oct/2009}{\textbf{ Jr Developer.}}
+\cvitem{Company}{\textbf{Cognosite S.C.}}
+\cvitem {Accomplishments}{lorem ipsum dolor sit amet.}
+
+\vspace{3mm}
+
+
+
+
 
 \cvitem{2013-2014}{\textbf{ Sr. Developer}}
 \cvitem{Company}{Vulcano Software}
@@ -188,6 +219,43 @@
 
 
 \cvitem{Used Technologies}{Java, J2EE, J2ME,  JSP, ASP, PHP, Blackberry (JAVA), Pocket PC (C\#)  JSP, C\#,  Struts ,  SQL, PostgreSQL, Tomcat,  Netbeans, Jquery, Javascript, CSS}
+
+
+
+\section{Education}
+\cvitem{2009-2012}{\textbf{Master in Computer Science}}
+\cvitem{School}{Monterrey Institute of Technology and Higher Education}
+\cvitem{Campus}{Mexico City}
+\cvitem{Grade}{92/100}
+\cvitem{Thesis}{Light client-server  framework for agile development
+  of Augmented reality applications}
+
+
+\cvitem{Main achievements}{\ding{225} Analisys, design and
+  development of the following componenets
+\begin{description}
+  \item \ding{228} Mobile Augmented Reality Component
+  to enhance camera images with 3D Objects and Texts.
+  \item \ding{228} Mobile Location-based caching component.
+  \item \ding{228} Server-side data management and statistical
+    analisys component.
+\end{description}
+}
+
+
+
+
+% Creación de una plataforma cliente-servidor que permite el desarrollo rápido de aplicaciones de realidad aumentada a la medida.
+
+\cvitem{Used Technologies}{Java, Groovy, Grails, Hibernate, Spring,  REST web services, Android,  AspectJ, OpenGL, ARToolkit, SQL,  SQLite, PostgreSQL,  UML, HTML, CSS, Javascript, Eclipse.}
+
+ \vspace{3mm}
+\cvitem{2002-2007}{\textbf{Engineering in technology information}}
+\cvitem{School}{Anáhuac University}
+\cvitem{Campus}{Xalapa}
+\cvitem{Grade}{83/100}
+\cvitem{Thesis}{ System that manage the attendance record for teachers and students}
+\cvitem{Used Technologies}{Java, J2EE,  JSP, SQL, Javascript, Tomcat, Netbeans, PostgreSQL, CSS, HTML}
 
 
 
