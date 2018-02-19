@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 FEB 2018 22:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 FEB 2018 23:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -972,21 +972,21 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 442.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 442.
+[2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 391.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 391.
  (./luisZavaleta_ingles.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 442.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 442.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 391.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 391.
 Package rerunfilecheck Info: File `luisZavaleta_ingles.out' has not changed.
-(rerunfilecheck)             Checksum: 7FBE082D856CCC529EA52C340FC62568;342.
+(rerunfilecheck)             Checksum: E6C75F7D8F924779C22813FC3FEBD3F0;455.
  ) 
 Here is how much of TeX's memory you used:
- 14496 strings out of 493488
- 229626 string characters out of 3141326
- 349468 words of memory out of 3000000
- 17509 multiletter control sequences out of 15000+200000
- 55831 words of font info for 74 fonts, out of 3000000 for 9000
+ 14493 strings out of 493488
+ 229596 string characters out of 3141326
+ 356468 words of memory out of 3000000
+ 17510 multiletter control sequences out of 15000+200000
+ 55629 words of font info for 72 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,12n,45p,792b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -998,10 +998,10 @@ blic/lm/lmssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/
 lmsso17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsso9.pf
 b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on luisZavaleta_ingles.pdf (3 pages, 170420 bytes).
+Output written on luisZavaleta_ingles.pdf (2 pages, 168756 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 64 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
- 16929 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 16937 words of extra memory for PDF output out of 17280 (max. 10000000)
 
