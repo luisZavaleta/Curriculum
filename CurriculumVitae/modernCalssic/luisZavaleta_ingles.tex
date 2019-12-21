@@ -28,30 +28,16 @@
 %suppress automatic page numbering for CVs longer than one page
 
 % character encoding
-\usepackage[utf8]{inputenc}                       % if you are not
-                                % using xelatex ou lualatex, replace by the encoding you are using
-%\usepackage{CJKutf8}                              % if you need to
-%use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage[utf8]{inputenc}
 
 % adjust the page margins
 \usepackage[scale=0.80]{geometry}
 \setlength{\hintscolumnwidth}{31mm}                % if you want to
-%change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic'
-%style, if you want to force the width allocated to your name and
-%avoid line breaks. be careful though, the length is normally
-%calculated to avoid any overlap with your personal info; use this at
-%your own typographical risks...
 
-% personal data
 \usepackage{pifont}
 
 \addtolength{\topmargin}{-0.5in}
 \addtolength{\textheight}{1.4in}
-
-% Implementing cvtripleitem
-
-
 
 \newlength\Tripleitemmaincolumnwidth
 \newlength\tripleitemmaincolumnwidth
@@ -83,227 +69,19 @@
                                                 % line if not wanted; the "postcode
                                                 % city" and and "country" arguments
                                                 % can be omitted or provided empty
-\phone{(052) 33-16-21-89-04}                    % optional, remove / comment the line if not wanted
+\phone{(+52) 33-16-21-89-04}                    % optional, remove / comment the line if not wanted
 \email{luixZavaleta@gmail.com}                               % optional, remove / comment the line if not wanted
 
 \extrainfo{\textbf{Technical Manager}}                  % optional, remove / comment the line if not wanted
-%\photo[59pt][0.4pt]{luisresume}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
-
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
-%-----       resume       ---------------------------------------------------------
+
 \makecvtitle
 
+\section{Experience}\label{sec:experience}
+\input{experience}
 
-%\section{Personal Information}
-%\cvitem{\textbf{Name}}{Luis Miguel Zavaleta Vázquez}
-%\cvdoubleitem{\textbf{Phone}}{(045) 92-11-34-22-98}{\textbf{Email}}{luixZavaleta@gmail.com}
-
-%\cvdoubleitem{\textbf{Gender}}{Male}		{\textbf{Status}}{Single}
-%\cvdoubleitem{\textbf{Date of birth}}{January 30th, 1983}		{\textbf{Nationality}}{Mexican}
-%\cvdoubleitem{\textbf{Current City:}}{Guadalajara, Jalisco}		{\textbf{Willing to relocate}}{Yes}
-
-%\section{Objetivo}
-%Aportar mis conocimientos en diversas metodologías y lenguajes de
-%programación con el fin ayudar en la generación software de calidad
-%que permita cubrir las necesidades de los clientes.
-
-\section{Experience}
-
-\cvitem{Aug/2014-Dec/2018}{\textbf{Sr. Software Engineer}}
-\cvitem{Company}{Hexaware Technologies}
-\cvitem {Responsibilities}{As a Java Sr Full Stack Developer with Microservices, participate in the
-analysis, design and development of different applications using Java and  REST W.S in the backend and React JS in the frontend,
-also containerized  such applications using Docker and deploy them in Kubernetes.}
-\cvitem {Highlights}{
-\begin{description}
-    \item[\ding{225}] {Design the architecture of a microservice  for authentication, such microservice was
-        containerized in 3 Docker containers, one for the frontend, another for the backend and a 3rd
-        one for the database }
-    \item[\ding{225}] {Principal developer of Authentication backend App, perform the analysis, design and development using
-        Java 8, Spring MVC, Spring Data and Spring Security to generate the REST Services  used by the application.}
-    \item[\ding{225}] {Principal developer of Authentication frontend App, perform the analysis, design and development using
-        REACT JS, Redux and Axios to develop the view.}
-    \item[\ding{225}] {Containerize backend, front and DB using Docker, Create the Deployment and Services of the
-        3 apps in order to deploy  and configure all 3 container in a Kubernetes Cluster and create a Jenkins pipeline to
-        automatize the deployment process.}
-    \item[\ding{225}]  Participate as a Sr Developer in Business Travel Assessment Application for Ernst and Young (EY),
-        main activity was the creation of different endpoint for CRUD operations using  REST Web Services.
-    % \item[\ding{225}] Ernst and young: DIFT  (Document Intelligence For Semi Structured documents )
-    \item[\ding{225}] Analysis and configuration of local environment of Freddie Mac Selling System, analyze bugs
-        and develop and deploy fixes using Java and Spring.
-\end{description}
-}
-
-
-\cvitem{Aug/2014-Dec/2018}{\textbf{Technical Manager}}
-\cvitem{Company}{HCL Technologies}
-\cvitem {Responsibilities}{Manage a team 30+, delivering 40+ projects
-  in over 4 years; lead developer of 5+ Java Web applications. Main achievements includes a ramp up from
-three persons and one single project to over 30 persons working parallelly in 11 different projects
-and successfully leading agile transformation.}
-
-\cvitem {Highlights}{
-\begin{description}
- \item[\ding{225}] Manage risks and opportunities, track and remove
-   impediments and facilitate direct communication between developers and clients.
-  \item[\ding{225}] Reduce dependency on onsite resources by
-    decentralizing technical and domain knowledge from onsite resources and spreading it among nearshore and offshore team members.
-  \item[\ding{225}] Substitute on-site management with nearshore
-    management.
- \item[\ding{225}] Help employees to establish a career path and align it
-   with Company objectives.
-  \item[\ding{225}] Provide technical help to Developers, QA engineers
-    and managers.
- \item[\ding{225}] Develop, Monitor and Implement training plan for new
-   resources.
- \item[\ding{225}] Monitor software development life cycles, code quality and
-   ensure high-quality project deliverables.
- \item[\ding{225}] Refactor USAA checking and saving web applications
- to fullfill EMV requirements.
- \item[\ding{225}] Develop applciation to automatize IRA  adquisition
- and withdraw process.
- \item[\ding{225}] Participate in the refactor all deposit (Checking, Saving, CD, and IRA)
- web applications for the pilot lauch of the new rewards checking
- product - USAA Cashback Rewards Checking.
- \item[\ding{225}] Responsable for the development of Standalone Order Card Application.
-\end{description}
-}
-%Substitute onsite with local management
-%QA transformation to automation transformation
-%Grow up Daposit Team from 3 person to over 20
-%Trainning
-%MAnage over 30 projects 9 at the same time
-%Resouce hiring
-%Client Visit
-
-
-
-%\vspace{3mm}
-
-%\cvitem{Aug/2014-Dec/2015}{\textbf{Technical Lead}}
-%\cvitem{Company}{HCL Tecnologies}
-
-%\cvitem {Accomplishments}{lorem ipsum dolor sit amet.}
-%Stand alone order Card
-%Cashback rewards checking
-%IRA automation tool
-%EMV Tool
-
-
-\vspace{3mm}
-
-\cvitem{Jul/2012-Jul/2014}{\textbf{Founder \& Principal Developer}}
-\cvitem{Company}{Vulcano Software}
-
-\cvitem {Responsibilities}{Legally constitute a corporation focused on
-  providing custom software to SMEs. Manage all 
-  phases of business and software development, including the creation of
-  business strategy, financial planning, project management,  architectural design,
-  requirement elicitation, analysis, coding, testing and delivery of
-  the products.}
-
-\cvitem {Activities}{
-\begin{description}
- \item[\ding{225}] Present  company services to prospects, perform
-   meetings with potential clients to understand their needs and get business requirements.
- \item[\ding{225}] Estimate project cost and duration based on
-   WBS, create and present cost proposals to clients and negotiate prices.
- \item[\ding{225}] Create software development and maintenance
-   contracts.
- \item[\ding{225}] Architect and principal developer for all the
-   applications of the company.
-\end{description}}
-\cvitem {Main Applications}{\begin{description}
- \item[\ding{225} Electronic  Billing System:] System used to manage
-   bills, users, suppliers, and products; it generates and e-sign
-   electronic bills, in accordance with the requirements establish by
-   Mexico Tax Administration System.
- \item[\ding{225} Proprietary Content Management System for Web Pages:]
-   Application that converts any static web page (based on standards:
-   HTML, CSS, Javascript) in dynamic page with a custom CMS, the administration interface
-   use the web page as a base and dynamically add the
-   functionalities required to convert it to a WYSIWYG CMS.
-\end{description}
-}
-
-%Create company from scratch
-%Client management
-%PRoduct planation
-%Prodcut architecture 
-%Analisys, design and development
-
-\vspace{3mm}
-
-\cvitem{Jan/2012-Jun/2012}{\textbf{Sr. Developer}}
-\cvitem{Company}{Enable}
-\cvitem {Responsibilities}{Develop and maintained Vision Engager, a
-  proprietary ERP based on Balance Score Card.}
-
-\cvitem {Highlights}{
-\begin{description}
- \item[\ding{225}] Responsable for the creation of one module used to
-   show graphically the difference between real and projected objectives.
-\item[\ding{225}] Main developer of a module  used in the the
-  creation, management and display of Gantt diagrams.
-\end{description}
-}
-
-
-\vspace{3mm}
-
-\cvitem{Nov/2009-Dec/2011}{\textbf{ Sr Developer.}}
-\cvitem{Company}{KTC Agency}
-\cvitem {Responsibilities}{Contribute to the development and testing
-  of 10+ applications, main backend developer of  2 applications}
-\cvitem {Highlights}{
-\begin{description}
- \item[\ding{225}] Main back-end developer of "Coca Cola
-   Happy Slider", a  Facebook app used by Coca-Cola in his
-   "Choose Happiness" global marketing campaign. This application
-   included a multilingual CMS and an analysis tool that helps to
-   identify the correlation between customer moods and  international
-   events. 
-\item[\ding{225}] Responsible for the development of "Profuturo:
-  Project your assets", a set of tools designed to automate the process of  trading and contracting retirement funds plans; main
-  tools included an internal document automation system, multiple
-  simulators that let final users take informed investment and
-  saving decisions and a custom management system for the "Project
-  your assets" portal.
-\end{description}
-}
-\vspace{3mm}
-
-
-\cvitem{Jul/2007-Oct/2009}{\textbf{ Jr Developer.}}
-\cvitem{Company}{Cognosite S.C.}
-\cvitem {Responsibilities}{Contractor Jr Developer in Chrysler México}
-\cvitem {Highlights}{
-\begin{description}
-\item[\ding{225}] Design and development o a Kiosks management system
-  for Chrysler plants in Mexico, this app allows Chrysler
-  employees to look and print  personal and corporate documents, also
-  allows managers to communicate advice and warnings to employees.
-\end{description}
-}
-\vspace{3mm}
-
-
-
-
-\section{Education}
+\section{Education}\label{sec:education}
 \cvitem{2009-2012}{\textbf{Master in Computer Science}}
 \cvitem{School}{\textbf{Monterrey Institute of Technology and Higher Education}}
 \cvitem{Grade}{92/100}
@@ -319,24 +97,22 @@ and successfully leading agile transformation.}
 \end{description}
 }
 
- \vspace{3mm}
 \cvitem{2002-2007}{\textbf{Engineering in technology information}}
-\cvitem{School}{\textbf{Anáhuac University}}
+\cvitem{School}{\textbf{Anahuac University}}
 \cvitem{Grade}{83/100}
 \cvitem{Thesis}{ Attendance tracker application.}
 
-\section{Certifications}
-\cvitem{}{\textbf{TOEFL ITP:} 582 Puntos}
+\section{Certifications}\label{sec:certifications}
+\cvitem{}{\textbf{TOEFL ITP:} 582 Points}
 \cvitem{}{\textbf{Certified SAFe agilist} }
 
 
-\section{Skills}
+\section{Skills}\label{sec:skills}
 
 \cvtripleitem
 {\textbf{Agile}}{Advanced}
 {\textbf{Project Mgmt.}}{Advanced}
 {\textbf{People Mgmt.}}{Advanced}
-
 
 \cvtripleitem
 {\textbf{Java 9}}{Advanced}
@@ -373,47 +149,12 @@ and successfully leading agile transformation.}
 {\textbf{Grails}}{Intermediate}
 {\textbf{Git}}{Intermediate}
 
-
-
-\section{Languages}
+\section{Languages}\label{sec:languages}
 \cvitem{\textbf{English}}{Advanced}
 \cvitem{\textbf{Spanish}}{Native}
 
 
-
-
 \clearpage
-%-----       letter       ---------------------------------------------------------
-% recipient data
-
-%---->\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
-%---->\date{January 01, 1984}
-%---->\opening{Dear Sir or Madam,}
-%---->\closing{Yours faithfully,}
-%---->\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
-%---->\makelettertitle
-
-%---->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
-
-%---->Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
-
-%---->Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
-
-%---->Albert Einstein discovered that $e=mc^2$ in 1905.
-
-%---->\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
-
-%---->\makeletterclosing
-
-%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
 
 
-%% end of file `template.tex'.
-
-%\section{EXPERIENCIA PROFESIONAL}
-%\subsection{EDUCACIÓN:}   
-%\section{HABILIDADES}          
-%\section{PROYECTOS}    
-%\section{IDIOMAS}   
-     

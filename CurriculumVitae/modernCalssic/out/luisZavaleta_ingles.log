@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  18 DEC 2019 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  20 DEC 2019 23:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -547,30 +547,30 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip79
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 104.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 104.
+Package hyperref Info: Option `breaklinks' set `true' on input line 77.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 77.
 
 (/Users/luiszavaleta/Projects/Curriculum/CurriculumVitae/modernCalssic/out/luis
 Zavaleta_ingles.aux)
 \openout1 = `luisZavaleta_ingles.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 77.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -603,7 +603,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 104.
+LaTeX Info: Redefining \microtypecontext on input line 77.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -618,8 +618,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 104.
-
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 77.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -664,7 +663,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 104.
+Package hyperref Info: Link coloring OFF on input line 77.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -673,9 +672,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count199
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
 
 (/Users/luiszavaleta/Projects/Curriculum/CurriculumVitae/modernCalssic/out/luis
 Zavaleta_ingles.out)
@@ -685,34 +684,32 @@ Zavaleta_ingles.out)
 \openout3 = `luisZavaleta_ingles.out'.
 
 \makecvtitledetailsbox=\box44
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 107.
-
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 79.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 107.
-
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 79.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 107
-.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 79.
+
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 107
-.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 79.
+
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 107.
+(Font)              <9> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 107.
+(Font)              <6> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 107.
+(Font)              <5> on input line 79.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
@@ -721,40 +718,37 @@ File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 \makecvtitledetailswidth=\skip80
 \makecvtitlepicturewidth=\skip81
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 
  []
 
+(./experience.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 125.
+(Font)              <10> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 125.
-[1
+(Font)              <7> on input line 1.
+ [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 2418) in paragraph at lines 240--240
-[]\T1/lmss/m/n/10 (+20) Application that con-
- []
-
-[2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 409.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 409.
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) [2] [3
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
 
 (/Users/luiszavaleta/Projects/Curriculum/CurriculumVitae/modernCalssic/out/luis
 Zavaleta_ingles.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 409.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 409.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
 Package rerunfilecheck Info: File `luisZavaleta_ingles.out' has not changed.
 (rerunfilecheck)             Checksum: E6C75F7D8F924779C22813FC3FEBD3F0;455.
  ) 
 Here is how much of TeX's memory you used:
- 19998 strings out of 492649
- 346282 string characters out of 6129622
- 443274 words of memory out of 5000000
- 23655 multiletter control sequences out of 15000+600000
- 582261 words of font info for 80 fonts, out of 8000000 for 9000
+ 20002 strings out of 492649
+ 346354 string characters out of 6129622
+ 445389 words of memory out of 5000000
+ 23660 multiletter control sequences out of 15000+600000
+ 582059 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,45p,10371b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,45p,10371b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/20
 18/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2018/texmf-d
@@ -765,7 +759,7 @@ lmsso17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsso9.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
 Output written on /Users/luiszavaleta/Projects/Curriculum/CurriculumVitae/moder
-nCalssic/out/luisZavaleta_ingles.pdf (3 pages, 170973 bytes).
+nCalssic/out/luisZavaleta_ingles.pdf (3 pages, 170342 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
